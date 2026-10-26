@@ -71,3 +71,7 @@ def test_timeout_is_handled():
 - The model string is not resolved, so a mock does not catch a wrong model name. Use `routehub.get_llm_provider(model)` to check one.
 - Usage counts are rough estimates.
 - `embedding` and `responses` have no `mock_response`. For embeddings, pass `client=` a fake OpenAI client instead.
+
+## Run a complete offline suite
+
+Follow [Build an offline test suite](/routehub/offline-test-suite) for a runnable pytest example covering synchronous and asynchronous responses, streams with usage-only chunks, error handling, and unexpected network access.

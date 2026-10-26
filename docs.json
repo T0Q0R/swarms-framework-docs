@@ -250,7 +250,8 @@
               "routehub/prompt-caching",
               "routehub/embeddings-and-responses",
               "routehub/batches",
-              "routehub/testing"
+              "routehub/testing",
+              "routehub/offline-test-suite"
             ]
           },
           {
